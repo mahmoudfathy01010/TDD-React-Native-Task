@@ -7,7 +7,7 @@ import {
 const App = () => {
  
   return (
-    <View>
+    <View testID='welcome'>
       <Text>Hello TDD</Text>
     </View>
   );
