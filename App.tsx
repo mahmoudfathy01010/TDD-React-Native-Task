@@ -1,15 +1,10 @@
 import React from 'react';
-import {
-  Text,
-  View,
-} from 'react-native';
+import Home from './src/screens/Home';
 
 const App = () => {
  
   return (
-    <View testID='welcome'>
-      <Text>Hello TDD</Text>
-    </View>
+    <Home/>
   );
 };
 
