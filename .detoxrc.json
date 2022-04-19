@@ -6,7 +6,7 @@
     "ios": {
       "type": "ios.app",
       "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/TDDReactNativeTask.app",
-      "build": "xcodebuild -workspace ios/TDDReactNativeTask.xcworkspace -configuration Release -sdk iphonesimulator -derivedDataPath ios/build  -scheme TDDReactNativeTask"
+      "build": "ENVFILE=.env.detox xcodebuild -workspace ios/TDDReactNativeTask.xcworkspace -configuration Release -sdk iphonesimulator -derivedDataPath ios/build  -scheme TDDReactNativeTask"
     },
     "android": {
       "type": "android.apk",
