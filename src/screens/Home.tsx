@@ -8,6 +8,7 @@ type Props = {
 
 const Home = (props: Props) => {
   console.log("helli")
+  console.log("helli")
   return (
    <MoviesList api={api}/>
   )
